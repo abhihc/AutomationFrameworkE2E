@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15421" started-at="2021-04-02T10:26:47 CEST" finished-at="2021-04-02T10:27:02 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15421" started-at="2021-04-02T10:26:47 CEST" finished-at="2021-04-02T10:27:02 CEST">
+      <class name="testcases.HomePageTest">
+        <test-method status="PASS" signature="browserIntialize()[pri:0, instance:testcases.HomePageTest@7d70d1b1]" name="browserIntialize" is-config="true" duration-ms="14611" started-at="2021-04-02T10:26:47 CEST" finished-at="2021-04-02T10:27:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserIntialize -->
+        <test-method status="PASS" signature="urlTest()[pri:0, instance:testcases.HomePageTest@7d70d1b1]" name="urlTest" duration-ms="31" started-at="2021-04-02T10:27:01 CEST" finished-at="2021-04-02T10:27:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.HomePageTest@7d70d1b1]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-04-02T10:27:01 CEST" finished-at="2021-04-02T10:27:02 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
