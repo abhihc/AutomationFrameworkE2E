@@ -6,9 +6,12 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.zalando.frontend.qa.util.TestUtil;
 
 public class Base 
@@ -33,7 +36,7 @@ public class Base
 
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "/src/main/java/org/zalando/frontend/qa/config/chromedriver.exe");
+					System.getProperty("user.dir") + "/src/main/java/org/zalando/frontend/qa/config/chromedrivernew.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
@@ -42,12 +45,17 @@ public class Base
 		}
 		
 		
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
 		driver.get(properties.getProperty("url"));
-
+		
+		By cookiesAccept = By.id("uc-btn-accept-banner");
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+	    wait.until(ExpectedConditions.elementToBeClickable(cookiesAccept)).click();
+		
 	}
 
 }

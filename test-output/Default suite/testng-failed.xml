@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.zalando.frontend.qa.testcases.HomePageTest">
+      <class name="org.zalando.frontend.qa.testcases.RegisterPageTest">
         <methods>
-          <include name="newsLetterTest" invocation-numbers="2 3"/>
+          <include name="validUserRegisterationTest"/>
           <include name="initialization"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- org.zalando.frontend.qa.testcases.HomePageTest -->
+      </class> <!-- org.zalando.frontend.qa.testcases.RegisterPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

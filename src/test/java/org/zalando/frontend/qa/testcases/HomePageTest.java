@@ -39,18 +39,20 @@ public class HomePageTest extends Base
 	
 	
 	@Test(priority = 2,dataProvider = "newsLetterData")
-	public void newsLetterTest(String email, String category) {
+	public void addNewsLetterTest(String email, String category) {
 		
-		assertEquals(true, homePage.addNewsLetter(email,category),"news letter sing up failed");
-		
+		assertEquals(true, homePage.addNewsLetter(email,category),"news letter sing up failed");		
 		
 	}
 	
-	
+	@Test(priority = 3)
+	public void registerTest() {
+		homePage.register();
+	}
 	
 	@AfterMethod
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 	}
 	
 }

@@ -1,109 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38570" started-at="2021-04-06T19:28:32 CEST" finished-at="2021-04-06T19:29:10 CEST">
+  <suite name="Default suite" duration-ms="10637" started-at="2021-04-07T19:04:09 CEST" finished-at="2021-04-07T19:04:20 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38570" started-at="2021-04-06T19:28:32 CEST" finished-at="2021-04-06T19:29:10 CEST">
-      <class name="org.zalando.frontend.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="initialization" is-config="true" duration-ms="8528" started-at="2021-04-06T19:28:33 CEST" finished-at="2021-04-06T19:28:41 CEST">
+    <test name="Default test" duration-ms="10637" started-at="2021-04-07T19:04:09 CEST" finished-at="2021-04-07T19:04:20 CEST">
+      <class name="org.zalando.frontend.qa.testcases.RegisterPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:org.zalando.frontend.qa.testcases.RegisterPageTest@491cc5c9]" name="initialization" is-config="true" duration-ms="9557" started-at="2021-04-07T19:04:09 CEST" finished-at="2021-04-07T19:04:19 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="newsLetterTest(java.lang.String,java.lang.String)[pri:2, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="newsLetterTest" duration-ms="3039" started-at="2021-04-06T19:28:41 CEST" data-provider="newsLetterData" finished-at="2021-04-06T19:28:44 CEST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[washingtonsundar1800@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Men’s fashion]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="validUserRegisterationTest()[pri:4, instance:org.zalando.frontend.qa.testcases.RegisterPageTest@491cc5c9]" name="validUserRegisterationTest" duration-ms="1033" started-at="2021-04-07T19:04:19 CEST" finished-at="2021-04-07T19:04:20 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newsLetterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="tearDown" is-config="true" duration-ms="226" started-at="2021-04-06T19:28:44 CEST" finished-at="2021-04-06T19:28:44 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="initialization" is-config="true" duration-ms="6177" started-at="2021-04-06T19:28:44 CEST" finished-at="2021-04-06T19:28:51 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="newsLetterTest(java.lang.String,java.lang.String)[pri:2, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="newsLetterTest" duration-ms="2700" started-at="2021-04-06T19:28:51 CEST" data-provider="newsLetterData" finished-at="2021-04-06T19:28:53 CEST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hikip75728@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Women’s fashion]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newsLetterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="tearDown" is-config="true" duration-ms="427" started-at="2021-04-06T19:28:53 CEST" finished-at="2021-04-06T19:28:54 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="initialization" is-config="true" duration-ms="5438" started-at="2021-04-06T19:28:54 CEST" finished-at="2021-04-06T19:28:59 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="newsLetterTest(java.lang.String,java.lang.String)[pri:2, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="newsLetterTest" duration-ms="2637" started-at="2021-04-06T19:28:59 CEST" data-provider="newsLetterData" finished-at="2021-04-06T19:29:02 CEST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fashionzalandotest123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Men’s fashion]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newsLetterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="tearDown" is-config="true" duration-ms="399" started-at="2021-04-06T19:29:02 CEST" finished-at="2021-04-06T19:29:02 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="initialization" is-config="true" duration-ms="4999" started-at="2021-04-06T19:29:02 CEST" finished-at="2021-04-06T19:29:07 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="newsLetterTest(java.lang.String,java.lang.String)[pri:2, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="newsLetterTest" duration-ms="2857" started-at="2021-04-06T19:29:07 CEST" data-provider="newsLetterData" finished-at="2021-04-06T19:29:10 CEST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testmailzalando123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Women’s fashion]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newsLetterTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.zalando.frontend.qa.testcases.HomePageTest@37374a5e]" name="tearDown" is-config="true" duration-ms="399" started-at="2021-04-06T19:29:10 CEST" finished-at="2021-04-06T19:29:10 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- org.zalando.frontend.qa.testcases.HomePageTest -->
+        </test-method> <!-- validUserRegisterationTest -->
+      </class> <!-- org.zalando.frontend.qa.testcases.RegisterPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
